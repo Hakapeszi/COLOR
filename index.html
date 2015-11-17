@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+        <title>Play</title>
+        <meta charset="UTF-8">
+        <link href="style/buttons.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body style ="background-color:#A4A4A4" >
+    <center>
+        <table style="width:100%;height:100%; font-size:xx-large">
+            <tr>
+                <td height="80%" align="center" valign="center">
+                    <font face="Segoe Script">
+                    <font color="blue">C</font>
+                    <font color="red">O</font>
+                    <font color="yellow">L</font>
+                    <font color="red">O</font>
+                    <font color="green">R</font>
+                    </font>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td height="20%" valign="bottom">
+                    <button style = "background-color:#2E64FE" onclick="classic()">Classic</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="20%" valign="bottom">
+                    <button style = "background-color:#FE2E2E" onclick="timeattack()">Time Attack</button>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <script>
+        function classic()
+        {
+            location.href = "classic.html";
+        }
+
+        function timeattack()
+        {
+            location.href = "timeattack.html";
+        }
+    </script>
+
+</body>
+</html>
